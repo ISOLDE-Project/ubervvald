@@ -10,7 +10,7 @@ name: ubervvald
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 permissions:
   contents: read
