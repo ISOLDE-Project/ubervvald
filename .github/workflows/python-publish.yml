@@ -9,8 +9,9 @@
 name: ubervvald
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - '*'
 
 permissions:
   contents: read
